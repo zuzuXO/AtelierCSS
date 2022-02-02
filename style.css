@@ -1,0 +1,149 @@
+header{
+    background-image: url(top.png);
+    height:51px;
+}
+.under{
+    text-align: left;
+    height: 370px;
+}
+.autumn{
+    width: 1000px;
+    height: 370px;
+    object-fit: cover; 
+}
+.logo{
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 140px;
+}
+.core{
+    margin: 0 auto;
+    width: 1000px;
+    display: block;
+}
+ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.rings{
+    background-image: url(rings.png);
+    background-size: 200px 75px;
+    background-repeat: no-repeat;
+}
+li{
+    background-color: brown;
+    margin-bottom: 0.7rem;
+    font-size: 17px;
+    text-align: center;
+    width: 100px;
+    flex-basis: 20%;
+}
+nav a {
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.7rem 1rem;
+    margin:0;
+    color: white;
+}
+a:hover{
+    color: violet;
+}
+.continua {
+    color:brown;
+    text-decoration: none;
+}
+.smoltitle{
+    font-size: 2.2rem;
+    color: brown;
+    font-weight: bold;
+    
+}
+.titleEtape , .titleTuile{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.element1{
+    grid-column: span 2;
+}
+.welcome{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.parag{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cube_image{
+    width:220px;
+    height: 185px;
+    margin: 0;
+    padding: 0;
+}
+.element1,.element2,.element3{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.image_etapes{
+    width: 240px;
+    height: 210px;
+}
+ .image_tuiles{
+    width: 220px;
+    height: 210px;
+}
+.titleCube{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.element5 ,.element , .element4 {
+    height: 240px;
+}
+.element6{
+    height: 265px;
+
+}
+
+.soura2{
+    height: 185px;width:220px;
+}
+.element{
+    text-align: right;
+}
+.acceuil_image {
+    height: 160px;
+    width: 190px;
+}
+
+.art{
+    display:grid;
+    gap: 0.5rem  ;
+    grid-template-columns: repeat(4,0.7fr);
+    width: 1030px;
+}
+.art1{
+    display:grid;
+    gap: 0.7rem  ;
+    grid-template-columns: repeat(4,0.7fr);
+    width: 1000px;
+}
+.last{
+    border: 4 px solid blue;
+}
+.last p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.footer{
+    background-image: url(foot.png);
+    height: 212px;
+}
